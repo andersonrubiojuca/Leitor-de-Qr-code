@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leitor de QR code</title>
+    <link type="text/css" src="css/index.css">
+</head>
+<body>
+    <main class="leitor-main">
+        <h1>Leitor de QR code</h1>
+        <p>Coloque aqui o a imagem para que seja feito a leitura.</p>
+
+        <input type="file" accept="image/png, image/jpeg, image/jpg, image/webp" class="main-button" id="main-button" />
+
+        <p id="main-load"></p>
+    </main>
+    
+    <script src="js/qr-scanner.min.js"></script>
+    <script type="module" src="js/index.js"></script>
+</body>
+</html>
